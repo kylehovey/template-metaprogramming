@@ -14,6 +14,9 @@ template<typename T>
 using seconds = value<T,0,1,0>;
 
 template<typename T>
+using kilogram = value<T,0,0,1>;
+
+template<typename T>
 using joule = value<T,2,-2,1>;
 
 template <typename T, int m, int s, int kg>
